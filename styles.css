@@ -7,6 +7,27 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.header{
+    margin: 15px 200px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-bottom: 75px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin-bottom: 75px;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*.header {
     background-color: #1F2937;
     color: #F9FAF8;
