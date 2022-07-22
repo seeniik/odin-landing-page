@@ -27,8 +27,9 @@ body {
     width: 500px;
 }
 
-.title-info h1 {
+.title-info .header-text {
     font-size: 48px;
+    font-weight: bold;
 }
 
 .title-info button {
