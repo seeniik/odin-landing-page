@@ -103,6 +103,31 @@ a {
     text-align: center;
 }
 
+/*-----TESTIMONIAL-----*/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.quote-source {
+   color: #1F2937;
+   font-weight: bold;
+   align-self: flex-end;
+}
+
+
 /*
 .img-box {
     background-color: gray;
