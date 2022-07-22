@@ -160,14 +160,15 @@ a {
     border-radius: 4px;
 }
 
+/*-----FOOTER-----*/
 
-/*
-.img-box {
-    background-color: gray;
-    width: 500px;
-    height: 200px;
+.footer {
+    background-color: #1F2937;
+    padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap
-}*/
+}
+
+.footer p {
+    color: #F9FAF8;
+}
