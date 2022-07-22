@@ -14,7 +14,7 @@ body {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    padding: 0px 150px;
 }
 
 .header-top,
@@ -132,6 +132,7 @@ a {
 }
 
 .quote {
+    max-width: 900px;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
