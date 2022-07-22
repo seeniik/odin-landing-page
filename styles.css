@@ -7,6 +7,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/*-----HEADER-----*/
+
 .header{
     padding: 15px 200px 50px 200px;
     background-color: #1F2937;
@@ -61,6 +63,44 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*-----INFORMATION-----*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 30px 0px;
+}
+
+.info-box {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info-pics {
+    width: 150px;
+}
+
+.box {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.info-box {
+    text-align: center;
 }
 
 /*
